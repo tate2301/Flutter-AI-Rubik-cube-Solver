@@ -16,7 +16,7 @@ class HomePage extends StatefulWidget {
 class _HomePageState extends State<HomePage> {
   final picker = ImagePicker();
   bool loading = false;
-  final server_url = "http://192.168.43.75:5000/";  //change your URL or local IP
+  final server_url = "http://192.168.43.1:5000/";  //change your URL or local IP
 
   @override
   Widget build(BuildContext context) {
